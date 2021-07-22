@@ -5,11 +5,11 @@ Design and Implementation of Large-Scale Web Applications
 
 - Print out the file
 
-  awk '{print}' <file name>
+  awk '{print}' [file name]
 
 - Only print the part of the file
-awk '{print $2}' <file name>
+awk '{print $2}' [file name]
 
 - sort ratings file
-awk -F, '{ print $3, $0 }' /Users/linxinjiang/Desktop/ratings.csv  | sort -nk2
+awk -F, '{ print $3, $0 }' [file name]  | sort -nk2
 
