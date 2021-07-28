@@ -1,0 +1,88 @@
+<!Doctype HTML>
+
+<html>
+<head>
+	<title>Task3.2</title>
+	<meta charset="uft-8">
+	<meta name="viewport" content="withd= device- withd">
+	<!-- Compiled and minified CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+	<style>
+		.card {
+		  width: 50%;
+		}
+	</style>
+</head>
+
+</head>
+
+<body>
+
+	<center>
+		<div class="card" >
+			
+			<form  class="card-content" onsubmit="return results();" method="post"  method="GET" >
+				<div>
+					<center><h7>Fortune-telling</h7></center>
+				</div>
+
+				<div>
+					<label for="name" ><h7>Name</h7></label>
+					<input id="name" name="name" type = "text">
+				</div>
+
+				<div>
+					<label for="age" ><h7>Age</h7></label>
+					<input id="age" name="age" type = "text">
+				</div>
+
+				<div>
+					<label for="yearsLater" ><h7>Do you want to know (5/10/20) years later: </h7></label>
+					<input id="yearsLater" name="yearsLater" type = "text">
+				</div>
+
+				<div>
+					<label for="dreamCity" ><h7>Enter your dearm city: </h7></label>
+					<input id="dreamCity" name="dreamCity" type = "text">
+				</div>
+
+				<div>
+					<label for="dreamJob" ><h7>Enter your dearm job title: </h7></label>
+					<input id="dreamJob" name="dreamJob" type = "text">
+				</div>
+				<button id="resu" type = "button" onclick="results()"> Submit</button>
+			</form>
+		</div>
+
+	</center>
+			
+	
+
+	<script>
+		// collect data
+		function results(){
+			var name = document.getElementById('name').value;
+			var age = document.getElementById('age').value;
+			var yearsLater = document.getElementById('yearsLater').value;
+			var dreamCity = document.getElementById('dreamCity').value;
+			var dreamJob = document.getElementById('dreamJob').value;
+			var text = "Your will be a " + dreamJob + " and live in " + dreamCity + " " + yearsLater + " years later.";
+
+		// ask users if they want to see the result
+			r = confirm("Do you want to continue?")
+			if(r){
+				document.getElementById("resu").innerHTML = text;
+			}else{
+				document.getElementById("resu").innerHTML = ("Thank you for using.");
+
+			}
+		}
+
+	</script>
+
+
+</body>
+
+
+</html>
