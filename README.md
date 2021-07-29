@@ -4,10 +4,18 @@ Design and Implementation of Large-Scale Web Applications
 ## Week3 Task3.1
 
   - Run Code:
-    - down load inPut file from github
-      - Link: https://github.com/LinxinJiang/CISC-3140/tree/main/Week3/Task3.2/Task3.1
-      - [PATH: CISC-3140/Week3/Task3.2/Task3.1/inPut/]
-    - cd into where you put the input 
+    - down load inPut file from github [PATH: CISC-3140/Week3/Task3.2/Task3.1/inPut/]
+      <pre>
+         # Choose where you want to put the file(I want to put it on the Desktop):
+	   cd Desktop/
+	 # pull into your local
+	   git clone https://github.com/LinxinJiang/CISC-3140.git<br>
+	   <img width="500" src="https://github.com/LinxinJiang/CISC-3140/blob/main/Week3/Task3.2/Task3.1/IMG/gitClone.png"><br>
+	  
+      </pre>
+    - Keep 'makefile' & 'downloadFile.sh' file on desktop<br>  
+       - Files path :  [PATH: CISC-3140/Week3/Task3.2/Task3.1/inPut/]<br>
+    - cd into where you put the input<br> 
     - enter: make<br>
 	<img src="https://github.com/LinxinJiang/CISC-3140/blob/main/Week3/Task3.2/Task3.1/IMG/run.png"><br>
 
