@@ -2,6 +2,12 @@
 Design and Implementation of Large-Scale Web Applications
 
 ## Week3 Task3.1
+
+  - Run Code:
+    - down load inPut file from github
+    - cd into where you put the input
+    - enter: make
+
   - Step 0: get the link of databse
     - I used the same file from last week: https://linxinjiang.github.io/CISC-3140/Week2/NewTask2.2/regional-global-daily-latest-4.csv
     - How to get the link? Go to 'Settings' --> GitHub Pages --> Check it out here!
