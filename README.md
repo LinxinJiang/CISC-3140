@@ -5,12 +5,21 @@ Design and Implementation of Large-Scale Web Applications
 
   - Run Code:
     - down load inPut file from github
-    - cd into where you put the input
-    - enter: make
+      - Link: https://github.com/LinxinJiang/CISC-3140/tree/main/Week3/Task3.2/Task3.1
+      - [PATH: CISC-3140/Week3/Task3.2/Task3.1/inPut/]
+    - cd into where you put the input 
+    - enter: make<br>
+	<img src="https://github.com/LinxinJiang/CISC-3140/blob/main/Week3/Task3.2/Task3.1/IMG/run.png"><br>
 
   - Step 0: get the link of databse
     - I used the same file from last week: https://linxinjiang.github.io/CISC-3140/Week2/NewTask2.2/regional-global-daily-latest-4.csv
-    - How to get the link? Go to 'Settings' --> GitHub Pages --> Check it out here!
+    - How to get the link? Go to 'Settings' --> GitHub Pages --> Check it out here!<br>
+    	<img width="500" src="https://github.com/LinxinJiang/CISC-3140/blob/main/Week3/Task3.2/Task3.1/IMG/downLoadFile1.png"><br>
+	<img width="500" src="https://github.com/LinxinJiang/CISC-3140/blob/main/Week3/Task3.2/Task3.1/IMG/Settings2.png"><br>
+	<img width="500" src="https://github.com/LinxinJiang/CISC-3140/blob/main/Week3/Task3.2/Task3.1/IMG/GitHub%20Pages3.png"><br>
+	<img width="500" src="https://github.com/LinxinJiang/CISC-3140/blob/main/Week3/Task3.2/Task3.1/IMG/PageLink4.png"><br>
+
+
 
 
   - Step 1: download a database 
