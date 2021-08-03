@@ -1,4 +1,16 @@
-# Before you start:
+# Using SQLite
+  - Using MacOS
+  - Install Mac Ports Link: https://www.macports.org/install.php
+  - Create Database : sqlite3 animal.db
+  - Create Table: create table animaldata ( ID integer primary key, Species text, Name text, Age text, Gender text, Weight text, Location
+text , IntakeDate text);
+  - Insert: 
+    - insert into animaldata (ID, Name) values (1, 'Max');
+    - insert into animaldata (Name) values ('Layla');
+  - View Table: select * from animaldata;
+  - Output: .output ./Desktop/aniamSQLite.sql
+
+# Before you start (MySQL Workbench):
   - MySQL Workbench Link: https://www.mysql.com/cn/products/workbench/<br>
     ## Install MySQL Workbench
     - <img width="250" src="https://github.com/LinxinJiang/CISC-3140/blob/main/Week4/Task4.1/img/Download1.png">
