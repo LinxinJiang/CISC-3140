@@ -1,0 +1,249 @@
+/* header linkes */
+.topnav{
+  overflow: auto;
+  background-color: #0b132b;
+}
+
+.topnav a{
+  float:left;
+  display: block;
+  color:#5bc0be;
+  text-align: center;
+  padding: 10 px 14px;
+  font-size:28px;
+  width: 14.28%;
+
+  text-decoration: none;
+}
+
+
+/* change roll over color*/
+.topnav a:hover{
+  background-color: #ddd;
+  color: #000;
+}
+
+
+/* ------------------------------------------------------ */
+
+/* The search bar (whole) max wideth will be 250px */
+.animalSearch{
+  position:relative;
+  width: 100%;
+  margin-left: 3%
+}
+
+.animalSearch,
+.animalSearch * {
+  transition: background 0.15s, box-shadow 0.15s;
+}
+
+
+.animalSearch,
+.animalSearch-inputContainer{
+  border-radius: 5px;
+}
+
+/* When user focus on the inputfile, a light box shadow appear*/
+.animalSearch:focus-within{
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+}
+
+/* gray search box inpit Container*/
+.animalSearch-inputContainer{
+  display: inline-flex;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 6px;
+  background: #eeeeee;
+
+}
+
+/* when user click on the input box, background gone*/
+.animalSearch-inputContainer:focus-within{
+  background: #ffffff;
+
+}
+
+.animalSearch-input{
+  flex-grow: 1;
+  border: none;
+  outline: none;
+  width:50%;
+  padding:0 6px;
+  background: transparent;
+}
+
+#animalSearch-resultsContainer{
+  max-height: 250px;
+  overflow-y: auto;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0.1s, opacity 0.1s;
+}
+
+.animalSearch-resultsContainer--visible{
+  visibility: visible;
+  opacity: 1;
+}
+
+.animalSearch-results{
+  display: block;
+  color: #333333;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 0.8em;
+  cursor: pointer;
+}
+
+.animalSearch-results:hover{
+  background: #eeeeee;
+}
+
+.animalSearch-results:not(:last-of-type){
+  border-bottom: 1px solid #eeeeee;
+}
+
+.animalTable{
+  margin-left: 15px;
+  width: 95%;
+}
+
+.animalTable-Info{
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+.animalTable tbody tr {
+  border-bottom: 1px solid #dddddd;
+  text-align:center;
+}
+
+.animalTable tbody tr {
+  border-bottom: 1px solid #dddddd;
+  text-align:center;
+}
+
+.animalTable tbody tr:nth-of-type(even){
+  background-color: #f3f3f3;
+  text-align:center;
+}
+
+.animalTable tbody tr:last-of-type{
+  border-bottom: 2px solid #009879;
+  text-align: center;
+}
+
+.animalTable tbody tr.active-row {
+  font-weight: bold;
+  color:009879;
+  text-align:center;
+}
+
+#tableResult{
+  line-height: 1.5;
+  margin:8px 0;
+  font-size: 14px;
+}
+
+
+
+
+
+/* Join Us section outline*/
+
+/*Join US*/
+#joinUs-title{
+  font-size: 50px;
+  font-weight: 600;
+  font-weight: bolder;
+  padding-top: 70px;
+  padding-bottom: 10px;
+  color: #293241;
+  text-align: center;
+}
+
+
+.joinUs{
+  width: 80%;
+  height: auto;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  border-radius: 10px;
+  align-items: center;
+  background:#89b0ae;
+  box-shadow: 0px 0px 10px 0px #666;
+}
+
+.joinUs-map{
+  width: 100%;
+  height: auto;
+  flex:50%;
+}
+
+.joinUs-map iframe{
+  width: 95%;
+  height: 620px;
+  flex:50%;
+  border-radius: 10px;
+}
+
+
+.joinUs-form{
+  width: 100%;
+  height: auto;
+  flex:50%; 
+}
+
+#joinUs-form-title{
+  margin-bottom: 10px;
+  font-size: 28px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.joinUs-form-text{
+  width: 90%;
+  height: 40px;
+  border: 1px solid #bcbcbc;
+  border-radius: 50px;
+  outline: none;
+  margin-bottom: 20px;
+  padding: 15px;
+}
+
+.joinUs-form-text::placeholder{
+  color: #aaa;
+}
+
+
+.joinUs-form-textarea{
+  width: 90%;
+  height: 130px;
+  border: 1px solid #bcbcbc;
+  border-radius: 15px;
+  outline: none;
+  margin-bottom: 20px;
+  padding: 15px;
+}
+
+.joinUs-form-textarea::placeholder{
+  color: #aaa;
+}
+
+.joinUs-form-button{
+  width: 95%;
+  height: 30px;
+  border: none;
+  outline: none;
+  border-radius: 50px;
+  background:#284b63;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 1px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
